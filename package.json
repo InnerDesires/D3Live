@@ -1,0 +1,25 @@
+{
+  "name": "d3live",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "mstr-viz-build development",
+    "build": "mstr-viz-build",
+    "build:local": "mstr-viz-build local",
+    "build:web-inf": "mstr-viz-build web-inf"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "dependencies": {
+    "d3": "^5.9.7",
+    "d3-cloud": "^1.2.5",
+    "d3plus-text": "^1.0.2",
+    "facade": "file:src/facade"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.2",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-plugin-import": "^2.18.2"
+  }
+}
